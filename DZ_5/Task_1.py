@@ -1,0 +1,1 @@
+print(' '.join(filter(lambda word: 'абв' not in word, input('Введите текст: ').split())))
