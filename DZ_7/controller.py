@@ -8,7 +8,6 @@ def phone_book():
     ui.out_data('3 - Удалить запись (по фамилии)')
     ui.out_data('4 - Показать весь справочник')
     mod = int(ui.input_data(''))
-    ui.out_data
     match mod:
         case 1:
             fun.add_record()
