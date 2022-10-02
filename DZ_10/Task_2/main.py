@@ -2,7 +2,7 @@ from aiogram import Bot, types, Dispatcher, executor
 from Token import bot_token
 import ph_b_write_read_txt as wr_rd
 import ph_b_fun_txt as fun
-
+f = 'gkhjgl'
 
 bot = Bot(token = bot_token)
 dp = Dispatcher(bot)
