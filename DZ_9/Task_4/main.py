@@ -2,7 +2,7 @@ import requests
 
 bot = '5699740380:AAH8f6hNtBnCs_-fqN9e7WOB94FNBgkwJdA'
 city = input('Введите название города: ')
-url_text = f'https://wttr.in/{city}?0pM'
+url_text = f'https://wttr.in/{city}?M'
 url_png = f'https://wttr.in/{city}_0pM.png'
 weather_text = requests.get(url_text)
 weather_png = requests.get(url_png)
